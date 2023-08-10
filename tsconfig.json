@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": ["src", "tests/test.js"],
+  "exclude": ["node_modules", "dist"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
